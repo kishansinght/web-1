@@ -1,7 +1,6 @@
 {
   "name": "web1",
   "version": "0.1.0",
-  "homepage": "http://kishan.zapto.org/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.15.0",

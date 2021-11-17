@@ -3,10 +3,9 @@ import {
 	HashRouter as Router,
 	Routes,
 	Route,
-	Link
 } from "react-router-dom";
 import './App.css';
-import { Navbar, NavbarBrand, NavLink, Nav, NavDropdown, Form, FormControl, Button } from 'react-bootstrap';
+import { Navbar, Nav, NavDropdown, Form, FormControl, Button } from 'react-bootstrap';
 import { About } from './components/About';
 import { Home } from './components/Home';
 import { Dashboard } from './components/Dashboard';
@@ -14,14 +13,6 @@ import { Dashboard } from './components/Dashboard';
 // "homepage": "https://http://kishan.zapto.org/",
 
 class App extends React.Component {
-
-	constructor(props) {
-		super(props);
-
-		// this.state = {
-		// };
-	}
-
 	render() {
 		return (
 			<Router>
